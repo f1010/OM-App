@@ -1,0 +1,26 @@
+name: poc_flutter
+description: A new Flutter project.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+      sdk: flutter
+  fluro: ^1.2.1
+  cupertino_icons: ^0.1.0
+  english_words: ^3.1.0
+  json_annotation: ^0.2.2
+  flutter_redux: ^0.3.5
+  redux: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^0.7.6
+  json_serializable: ^0.3.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/lake.jpg
+
