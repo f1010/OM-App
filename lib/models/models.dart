@@ -187,6 +187,6 @@ class Child extends Object with _$ChildSerializerMixin {
 
   @override
   String toString() {
-    return 'Child{firstName: $firstName, lastName: $lastName, gender: $gender, startDate: $startDate, relationship: $relationship, parentId: $parentId}, birthDate: $birthDate';
+    return 'Child{firstName: $firstName, lastName: $lastName, gender: $gender, startDate: $startDate, relationship: $relationship, parentId: $parentId, birthDate: $birthDate}';
   }
 }

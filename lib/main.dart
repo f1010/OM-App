@@ -8,15 +8,6 @@ import 'package:poc_flutter/reducers/reducers.dart';
 
 void main() {
   runApp(new ReduxApp());
- /* runApp(new StoreProvider(
-    store: new Store<String>(firstNameReducer, initialState: ""),
-    child: new ResponsiveWidget(
-      // data: MediaQuery.of(context), todo
-      child:  new MaterialApp(
-        onGenerateRoute: Routes.router.generator,
-      ),
-    ),
-  ));*/
 }
 
 class ReduxApp extends StatelessWidget {

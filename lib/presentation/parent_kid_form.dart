@@ -248,55 +248,55 @@ class _ParentKidForm2State extends State<ParentKidForm2> {
   bool chkBringsOwnFood = false;
 
   void handleRadioValueChanged(String value) {
-//    setState(() {
-    radioValue = value;
-    // });
+    setState(() {
+      radioValue = value;
+    });
   }
 
   void handleCheckboxValueChanged(bool value) {
-//    setState(() {
+    setState(() {
     addressSameAsParent = value;
-//    });
+    });
   }
 
   void chkAllergyDairyChanged(bool value) {
-//    setState(() {
+    setState(() {
     chkAllergyDairy = value;
-//    });
+    });
   }
 
   void chkAllergyNutsChanged(bool value) {
-//    setState(() {
+    setState(() {
     chkAllergyNuts = value;
-//    });
+    });
   }
 
   void chkAllergyGlutenChanged(bool value) {
-//    setState(() {
+    setState(() {
     chkAllergyGluten = value;
-//    });
+    });
   }
 
   void chkVegetarianChanged(bool value) {
-//    setState(() {
+    setState(() {
     chkVegetarian = value;
-//    });
+    });
   }
 
   void chkBringsOwnFoodChanged(bool value) {
-//    setState(() {
+    setState(() {
     chkBringsOwnFood = value;
-//    });
+    });
   }
 
   void ddAgeRangeChanged(dynamic value) {
-//    setState(() {
+    setState(() {
     ddAgeRange = value;
-//    });
+    });
   }
 
   void handleDropDownValueChanged(dynamic value) {
-//    setState(() {});
+    setState(() {});
   }
 
   void uploadPictureButton() {}
@@ -380,7 +380,7 @@ class _ParentKidForm2State extends State<ParentKidForm2> {
                         new Flexible(
                           child: new DropdownButton(
                             onChanged: handleDropDownValueChanged,
-                            items: new List.generate(20, (int index) {
+                            items: new List.generate(10, (int index) {
                               return new DropdownMenuItem(
                                   child: new Container(
                                 child: new Text("Item#$index"),
@@ -391,13 +391,6 @@ class _ParentKidForm2State extends State<ParentKidForm2> {
                       ],
                     ),
                     defaultTitle(context, "Allergies"),
-                    /*new Text(
-                      "Allergies",
-                      textAlign: TextAlign.left,
-                      overflow: TextOverflow.ellipsis,
-                      style: new TextStyle(
-                          fontWeight: FontWeight.bold, fontSize: 25.5),
-                    ),*/
                     new Row(
                       children: [
                         new Checkbox(
