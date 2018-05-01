@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-class StepsContainer extends StatefulWidget {
+class AddKidStepsContainer extends StatefulWidget {
   @override
-  State<StatefulWidget> createState() => StepsState();
+  State<StatefulWidget> createState() => AddKidStepsState();
 }
 
-class StepsState extends State<StepsContainer> {
+class AddKidStepsState extends State<AddKidStepsContainer> {
   @override
   Widget build(BuildContext context) {
     return Container();

@@ -31,7 +31,7 @@ class HomeScreenState extends State<HomeScreen> {
         body: PageView(
           children: [
             Container(color: Colors.red),
-            StepsContainer(),
+            AddKidStepsContainer(),
             Container(color: Colors.blue),
             Container(color: Colors.grey),
             Container(color: Colors.green)
